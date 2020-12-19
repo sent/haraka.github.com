@@ -6,14 +6,10 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content-theme-docs": "^0.5.1",
-    "nuxt": "^2.14.3"
-  },
-  "devDependencies": {
-    "push-dir": "^0.4.1"
+    "@nuxt/content-theme-docs": "^0.8.2",
+    "nuxt": "^2.14.12"
   }
 }
